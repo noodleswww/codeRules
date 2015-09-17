@@ -34,7 +34,7 @@ Demo & Docs
 * 具体配置可参考详细链接详细说明
 * 简单配置
 
-``
+```js
 custom : {
         options : {
             config : '.csscomb.json'
@@ -44,7 +44,7 @@ custom : {
         }
     }
 grunt.loadNpmTasks('grunt-csscomb');
-``
+```
 
 ##.csslintrc
 * 定义CSS语法检查规则
@@ -52,7 +52,7 @@ grunt.loadNpmTasks('grunt-csscomb');
 * 具体配置可参考详细链接详细说明
 * gulp简单配置
 
-``js
+```js
 options: {
 		csslintrc: '.csslintrc'
 	},
@@ -68,7 +68,7 @@ options: {
 		},
 		src: ['public/*.css']
 	}
-``
+```
 
 
 ##.scsslintrc
@@ -77,7 +77,7 @@ options: {
 * 具体配置可参考详细链接详细说明
 * 简单配置
 
-``js
+```js
 gulp.task("sass", function(done) {
   gulp.src("./app/styles/main.scss")
   .pipe($.sass()).on('error', handleError)
@@ -88,11 +88,11 @@ gulp.task("sass", function(done) {
   .pipe(gulp.dest(".tmp/styles/"))
   .on("end", done);
 });
-``
+```
 
 * grunt 配置
 
-``js
+```js
 sass: {
         options: {
             sourceMap: true
@@ -103,7 +103,7 @@ sass: {
             }
         }
     }
-``
+```
 
 ##.editorconfig
 * 定义不同IDE和editor的编码风格

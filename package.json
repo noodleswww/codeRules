@@ -1,0 +1,26 @@
+{
+  "name": "rule_program",
+  "version": "1.0.0",
+  "description": "code rules for program",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/noodleswww/codeRule.git"
+  },
+  "keywords": [
+    "jshintrc",
+    "csslintrc",
+    "scsslintrc",
+    "rule",
+    "code"
+  ],
+  "author": "noodles",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/noodleswww/codeRule/issues"
+  },
+  "homepage": "https://github.com/noodleswww/codeRule#readme"
+}

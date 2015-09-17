@@ -33,6 +33,7 @@ Demo & Docs
 * [grunt-csscomb](https://github.com/csscomb/grunt-csscomb)
 * 具体配置可参考详细链接详细说明
 * 简单配置
+
 ``
 custom : {
         options : {
@@ -50,6 +51,7 @@ grunt.loadNpmTasks('grunt-csscomb');
 * [grunt-contrib-csslint](https://github.com/gruntjs/grunt-contrib-csslint)
 * 具体配置可参考详细链接详细说明
 * gulp简单配置
+
 ``js
 options: {
 		csslintrc: '.csslintrc'
@@ -74,6 +76,7 @@ options: {
 * [grunt-contrib-csslint](https://github.com/gruntjs/grunt-contrib-csslint)
 * 具体配置可参考详细链接详细说明
 * 简单配置
+
 ``js
 gulp.task("sass", function(done) {
   gulp.src("./app/styles/main.scss")
@@ -86,7 +89,9 @@ gulp.task("sass", function(done) {
   .on("end", done);
 });
 ``
+
 * grunt 配置
+
 ``js
 sass: {
         options: {
